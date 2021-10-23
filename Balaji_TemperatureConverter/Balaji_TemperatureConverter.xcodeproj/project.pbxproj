@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB013F62723AEAA00B61C08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB013F52723AEAA00B61C08 /* AppDelegate.swift */; };
+		DEB013F82723AEAA00B61C08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB013F72723AEAA00B61C08 /* SceneDelegate.swift */; };
+		DEB013FA2723AEAA00B61C08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB013F92723AEAA00B61C08 /* ViewController.swift */; };
+		DEB013FD2723AEAA00B61C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB013FB2723AEAA00B61C08 /* Main.storyboard */; };
+		DEB013FF2723AEAD00B61C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB013FE2723AEAD00B61C08 /* Assets.xcassets */; };
+		DEB014022723AEAD00B61C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB014002723AEAD00B61C08 /* LaunchScreen.storyboard */; };
+		DEB0140D2723AEAD00B61C08 /* Balaji_TemperatureConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB0140C2723AEAD00B61C08 /* Balaji_TemperatureConverterTests.swift */; };
+		DEB014172723AEAD00B61C08 /* Balaji_TemperatureConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB014162723AEAD00B61C08 /* Balaji_TemperatureConverterUITests.swift */; };
+		DEB014192723AEAD00B61C08 /* Balaji_TemperatureConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB014182723AEAD00B61C08 /* Balaji_TemperatureConverterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEB014092723AEAD00B61C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB013EA2723AEAA00B61C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB013F12723AEAA00B61C08;
+			remoteInfo = Balaji_TemperatureConverter;
+		};
+		DEB014132723AEAD00B61C08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB013EA2723AEAA00B61C08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB013F12723AEAA00B61C08;
+			remoteInfo = Balaji_TemperatureConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEB013F22723AEAA00B61C08 /* Balaji_TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Balaji_TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB013F52723AEAA00B61C08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEB013F72723AEAA00B61C08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEB013F92723AEAA00B61C08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEB013FC2723AEAA00B61C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB013FE2723AEAD00B61C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB014012723AEAD00B61C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB014032723AEAD00B61C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB014082723AEAD00B61C08 /* Balaji_TemperatureConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Balaji_TemperatureConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB0140C2723AEAD00B61C08 /* Balaji_TemperatureConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balaji_TemperatureConverterTests.swift; sourceTree = "<group>"; };
+		DEB014122723AEAD00B61C08 /* Balaji_TemperatureConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Balaji_TemperatureConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB014162723AEAD00B61C08 /* Balaji_TemperatureConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balaji_TemperatureConverterUITests.swift; sourceTree = "<group>"; };
+		DEB014182723AEAD00B61C08 /* Balaji_TemperatureConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balaji_TemperatureConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB013EF2723AEAA00B61C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB014052723AEAD00B61C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB0140F2723AEAD00B61C08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB013E92723AEAA00B61C08 = {
+			isa = PBXGroup;
+			children = (
+				DEB013F42723AEAA00B61C08 /* Balaji_TemperatureConverter */,
+				DEB0140B2723AEAD00B61C08 /* Balaji_TemperatureConverterTests */,
+				DEB014152723AEAD00B61C08 /* Balaji_TemperatureConverterUITests */,
+				DEB013F32723AEAA00B61C08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB013F32723AEAA00B61C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB013F22723AEAA00B61C08 /* Balaji_TemperatureConverter.app */,
+				DEB014082723AEAD00B61C08 /* Balaji_TemperatureConverterTests.xctest */,
+				DEB014122723AEAD00B61C08 /* Balaji_TemperatureConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB013F42723AEAA00B61C08 /* Balaji_TemperatureConverter */ = {
+			isa = PBXGroup;
+			children = (
+				DEB013F52723AEAA00B61C08 /* AppDelegate.swift */,
+				DEB013F72723AEAA00B61C08 /* SceneDelegate.swift */,
+				DEB013F92723AEAA00B61C08 /* ViewController.swift */,
+				DEB013FB2723AEAA00B61C08 /* Main.storyboard */,
+				DEB013FE2723AEAD00B61C08 /* Assets.xcassets */,
+				DEB014002723AEAD00B61C08 /* LaunchScreen.storyboard */,
+				DEB014032723AEAD00B61C08 /* Info.plist */,
+			);
+			path = Balaji_TemperatureConverter;
+			sourceTree = "<group>";
+		};
+		DEB0140B2723AEAD00B61C08 /* Balaji_TemperatureConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB0140C2723AEAD00B61C08 /* Balaji_TemperatureConverterTests.swift */,
+			);
+			path = Balaji_TemperatureConverterTests;
+			sourceTree = "<group>";
+		};
+		DEB014152723AEAD00B61C08 /* Balaji_TemperatureConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB014162723AEAD00B61C08 /* Balaji_TemperatureConverterUITests.swift */,
+				DEB014182723AEAD00B61C08 /* Balaji_TemperatureConverterUITestsLaunchTests.swift */,
+			);
+			path = Balaji_TemperatureConverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB013F12723AEAA00B61C08 /* Balaji_TemperatureConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB0141C2723AEAD00B61C08 /* Build configuration list for PBXNativeTarget "Balaji_TemperatureConverter" */;
+			buildPhases = (
+				DEB013EE2723AEAA00B61C08 /* Sources */,
+				DEB013EF2723AEAA00B61C08 /* Frameworks */,
+				DEB013F02723AEAA00B61C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Balaji_TemperatureConverter;
+			productName = Balaji_TemperatureConverter;
+			productReference = DEB013F22723AEAA00B61C08 /* Balaji_TemperatureConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEB014072723AEAD00B61C08 /* Balaji_TemperatureConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB0141F2723AEAD00B61C08 /* Build configuration list for PBXNativeTarget "Balaji_TemperatureConverterTests" */;
+			buildPhases = (
+				DEB014042723AEAD00B61C08 /* Sources */,
+				DEB014052723AEAD00B61C08 /* Frameworks */,
+				DEB014062723AEAD00B61C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB0140A2723AEAD00B61C08 /* PBXTargetDependency */,
+			);
+			name = Balaji_TemperatureConverterTests;
+			productName = Balaji_TemperatureConverterTests;
+			productReference = DEB014082723AEAD00B61C08 /* Balaji_TemperatureConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEB014112723AEAD00B61C08 /* Balaji_TemperatureConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB014222723AEAD00B61C08 /* Build configuration list for PBXNativeTarget "Balaji_TemperatureConverterUITests" */;
+			buildPhases = (
+				DEB0140E2723AEAD00B61C08 /* Sources */,
+				DEB0140F2723AEAD00B61C08 /* Frameworks */,
+				DEB014102723AEAD00B61C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB014142723AEAD00B61C08 /* PBXTargetDependency */,
+			);
+			name = Balaji_TemperatureConverterUITests;
+			productName = Balaji_TemperatureConverterUITests;
+			productReference = DEB014122723AEAD00B61C08 /* Balaji_TemperatureConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB013EA2723AEAA00B61C08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DEB013F12723AEAA00B61C08 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DEB014072723AEAD00B61C08 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DEB013F12723AEAA00B61C08;
+					};
+					DEB014112723AEAD00B61C08 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = DEB013F12723AEAA00B61C08;
+					};
+				};
+			};
+			buildConfigurationList = DEB013ED2723AEAA00B61C08 /* Build configuration list for PBXProject "Balaji_TemperatureConverter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB013E92723AEAA00B61C08;
+			productRefGroup = DEB013F32723AEAA00B61C08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB013F12723AEAA00B61C08 /* Balaji_TemperatureConverter */,
+				DEB014072723AEAD00B61C08 /* Balaji_TemperatureConverterTests */,
+				DEB014112723AEAD00B61C08 /* Balaji_TemperatureConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB013F02723AEAA00B61C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB014022723AEAD00B61C08 /* LaunchScreen.storyboard in Resources */,
+				DEB013FF2723AEAD00B61C08 /* Assets.xcassets in Resources */,
+				DEB013FD2723AEAA00B61C08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB014062723AEAD00B61C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB014102723AEAD00B61C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB013EE2723AEAA00B61C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB013FA2723AEAA00B61C08 /* ViewController.swift in Sources */,
+				DEB013F62723AEAA00B61C08 /* AppDelegate.swift in Sources */,
+				DEB013F82723AEAA00B61C08 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB014042723AEAD00B61C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB0140D2723AEAD00B61C08 /* Balaji_TemperatureConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB0140E2723AEAD00B61C08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB014172723AEAD00B61C08 /* Balaji_TemperatureConverterUITests.swift in Sources */,
+				DEB014192723AEAD00B61C08 /* Balaji_TemperatureConverterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEB0140A2723AEAD00B61C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB013F12723AEAA00B61C08 /* Balaji_TemperatureConverter */;
+			targetProxy = DEB014092723AEAD00B61C08 /* PBXContainerItemProxy */;
+		};
+		DEB014142723AEAD00B61C08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB013F12723AEAA00B61C08 /* Balaji_TemperatureConverter */;
+			targetProxy = DEB014132723AEAD00B61C08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEB013FB2723AEAA00B61C08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB013FC2723AEAA00B61C08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB014002723AEAD00B61C08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB014012723AEAD00B61C08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEB0141A2723AEAD00B61C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEB0141B2723AEAD00B61C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB0141D2723AEAD00B61C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Balaji_TemperatureConverter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "balaji.ch.Balaji-TemperatureConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEB0141E2723AEAD00B61C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Balaji_TemperatureConverter/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "balaji.ch.Balaji-TemperatureConverter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DEB014202723AEAD00B61C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "balaji.ch.Balaji-TemperatureConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balaji_TemperatureConverter.app/Balaji_TemperatureConverter";
+			};
+			name = Debug;
+		};
+		DEB014212723AEAD00B61C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "balaji.ch.Balaji-TemperatureConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Balaji_TemperatureConverter.app/Balaji_TemperatureConverter";
+			};
+			name = Release;
+		};
+		DEB014232723AEAD00B61C08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "balaji.ch.Balaji-TemperatureConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Balaji_TemperatureConverter;
+			};
+			name = Debug;
+		};
+		DEB014242723AEAD00B61C08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "balaji.ch.Balaji-TemperatureConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Balaji_TemperatureConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB013ED2723AEAA00B61C08 /* Build configuration list for PBXProject "Balaji_TemperatureConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB0141A2723AEAD00B61C08 /* Debug */,
+				DEB0141B2723AEAD00B61C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB0141C2723AEAD00B61C08 /* Build configuration list for PBXNativeTarget "Balaji_TemperatureConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB0141D2723AEAD00B61C08 /* Debug */,
+				DEB0141E2723AEAD00B61C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB0141F2723AEAD00B61C08 /* Build configuration list for PBXNativeTarget "Balaji_TemperatureConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB014202723AEAD00B61C08 /* Debug */,
+				DEB014212723AEAD00B61C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB014222723AEAD00B61C08 /* Build configuration list for PBXNativeTarget "Balaji_TemperatureConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB014232723AEAD00B61C08 /* Debug */,
+				DEB014242723AEAD00B61C08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB013EA2723AEAA00B61C08 /* Project object */;
+}
